@@ -1,0 +1,17 @@
+// Отримуємо всі зображення товарів
+const images = document.querySelectorAll('.item img');
+const modal = document.getElementById('imageModal');
+const modalImage = modal.querySelector('img');
+
+// Додаємо обробник кліку для кожного зображення
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    modalImage.src = image.src; // Встановлюємо джерело зображення
+    modal.classList.add('active'); // Відкриваємо модальне вікно
+  });
+});
+
+// Закриваємо модальне вікно при кліку на фон
+modal.addEventListener('click', () => {
+  modal.classList.remove('active');
+});

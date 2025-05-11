@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Мотокоса ",
+      "image": "img/image1.png",
+      "default_price": "5499грн",
+      "price.with.discount": "4497грн",
+      "price.with.сoupon": "4395грн"
+      
+    },
+    {
+      "id": 2,
+      "name": "Тример",
+      "image": "img/image2.png",
+      "default_price": "4497грн",
+      "price.with.discount": "3498грн",
+      "price.with.сoupon": "3396грн"
+    },
+    {
+      "id": 3,
+      "name": "Газонокосарка ",
+      "image": "img/image3.png",
+      "default_price": "4497грн",
+      "price.with.discount": "3297грн",
+      "price.with.сoupon": "3195грн"
+    },
+    {
+    "id": 4,
+    "name": "Оприскувач ",
+    "image": "img/image4.png",
+    "default_price": "2190грн",
+    "price.with.discount": "1698грн",
+    "price.with.сoupon": "1596грн"
+    }
+  ]
